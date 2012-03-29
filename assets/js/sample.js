@@ -1,3 +1,8 @@
+// What does the exclamation mark do before the function:
+// 		http://stackoverflow.com/questions/3755606/what-does-the-exclamation-mark-do-before-the-function
+//
+// !function ($) { use $. instead of window.jQuery. }(window.jQuery);
+//
 !function( $ ){	// $ = window.jQuery (look for comment at the bottom)
 
 	"use strict"
