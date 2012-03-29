@@ -2,3 +2,7 @@ I struggled with bootstrap-jQuery classes so I made this sample to play around a
 
 Open the sample.html, in Chrome open Developer-Tools, and look what the console shows you.
 Comments are in the JS-File.
+
+Developer-Tools:
+<img src="screenshot.jpg">
+![Developer-Tools](http://www.mikemitterer.at/fileadmin/sourcesamples/jQPlayGround/screenshot.jpg)
