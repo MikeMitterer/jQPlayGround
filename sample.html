@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JS-Sample</title>
+  </head>
+
+  <body>
+	<a href="#" class="sampletest">Hallo</a> <-- class: sampletest<br/>
+	<a href="#" class="test2">Hallo2</a> <-- class: test2<br/>
+	<span class="test3">Hallo3</span> <-- class: test3<br/>
+
+
+    <!-- Scripts
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+	  // You may specify partial version numbers, such as "1" or "1.3",
+	  //  with the same result. Doing so will automatically load the
+	  //  latest version matching that partial revision pattern
+	  //  (e.g. 1.3 would load 1.3.2 today and 1 would load 1.7.1).
+	  google.load("jquery", "1.7.1");
+	</script>
+
+    <script src="assets/js/sample.js"></script>
+
+	<script type="text/javascript">
+	  google.setOnLoadCallback(function() {
+	    // Place init code here instead of $(document).ready()
+	    console.log("---- google.setOnLoadCallback...");
+	  });
+	</script>
+
+  </body>
+</html>
