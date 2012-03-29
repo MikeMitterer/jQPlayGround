@@ -22,7 +22,7 @@
     , constructor: Sample	// defined above
 
     , onClickHandler: function ( event ) {
-      var $this = $(this)
+      var $this = $(this) // $this for HTML-Element
       var settings = event.data != null ? event.data /* not a real object - only the eventhandler function*/: $this.data("sample").settings /* real object */
       var val1 = settings.val1;
       var val2 = settings.val2;
@@ -38,7 +38,7 @@
     }
       // $(".test2").sample("myfunc2");
 	, myfunc2: function() {
-		var $this = $(this)
+		var $this = $(this) // $this for HTML-Element
 		var settings = $this.data("sample").settings;
 
 		console.log("myfunc2 called for class: " + $this.context.className + ", val2: " + settings.val2 + ", original val2: " + Sample.prototype.settings.val2);
